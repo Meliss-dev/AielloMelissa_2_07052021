@@ -342,3 +342,97 @@ main{
     border: solid green 1px;
 }
 
+
+/*      ASIDE LES PLUS POPULAIRES       */
+
+aside{
+    width: 32%;
+    height: 625px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_populaire{
+    width: 82%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: red 1px solid;
+
+}
+.titre_populaire i{
+    margin-top: 10%;
+    font-size: 1.4em;
+}
+
+.titre_populaire h2{
+ 
+    font-size: 1.4em;
+    
+}
+.plus_populaires{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plus_populaires a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100% ;
+    height: 145px;
+    margin-bottom: 31px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column ;
+}
+
+.infos h3{
+    margin: 0%;
+    color: black;
+     width: 80%;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.infos span{
+    font-size: small;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.infos p{
+    margin-top: 40px;
+    color: #0065FC;
+    font-size: x-small;
+}
+.coeur_de_leau p :last-child , .bleu_blanc p :last-child{
+    color: #f2f2f2;
+}
+
+/*VIGNETTES POUR CHAQUE HOTEL POPULAIRE*/
+
+
+.soleil_du_matin , .coeur_de_leau , .bleu_blanc{
+    display: flex;
+    width: 100% ;
+    height: 145px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 31px;
+}
+
+.soleil_du_matin img , .coeur_de_leau img , .bleu_blanc img{ 
+    width:38%;
+    margin: 1.5%;
+    object-fit: cover ;
+    border-radius: 20px 0 0 20px ;
+}
