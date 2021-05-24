@@ -436,3 +436,89 @@ aside{
     object-fit: cover ;
     border-radius: 20px 0 0 20px ;
 }
+
+
+/*       ACTIVITES A MARSEILLE       */
+
+
+#activites_marseille{
+    width: 100%; 
+    margin-bottom: 50px;
+}
+
+.activites{
+    width:100%;
+    height: 445px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activites a{
+    display: block;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #f2f2f2;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.pomegues_frioul , .dame_longchamp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22%;
+    height: 445px;
+}
+.pomegues_frioul a, .dame_longchamp a{
+    width: 100%;
+}
+
+/*      IMAGES ACTIVITES        */
+
+
+.vieux_port img , .pomegues img, .frioul img, .calanques img, .notre_dame img , .longchamp img{
+    width: 100% ;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+.vieux_port img, .calanques img{
+    height: 390px;
+}
+.pomegues img{
+    height: 180px;
+}
+
+.frioul img{
+    height: 110px;
+}
+.notre_dame img{
+    height:140px;
+}
+.longchamp img{
+    height: 150px;
+}
+
+.activites h3{
+    margin: 5%;
+}
+
+
+
+/*      FOOTER     */
+
+footer{
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+}
+
+.a_propos , .nos_hebergements , .assistance{
+    width:33%;
+    height: 140px;
+
+}
+
