@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+body{
+    font-family: 'Raleway', Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+#bloc_page{
+    width: 1440px;
+    margin: auto;
+}
+
+
+/*      HEADER      */
+
+header{
+    width: 93%;
+    margin: auto;
+}
+
+/*      LOGO ET NAV     */
+
+.max_nav{
+    display: flex;
+}
+
+.max_logo img{ 
+    padding-top: 40px;
+    width: 100px;
+}
+
+
+.max_menu {
+    width: 36%;
+    display: flex;
+    margin-left:50%;
+}
+
+.max_menu ul{
+    display:flex;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.max_menu li{
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.max_menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.max_menu ul :hover {
+    color: #0065FC;
+}
+.max_menu  li:hover{
+    border-top: 2px #0065FC solid;
+}
+
+.max_signin {
+    width: 12%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #0065fc;
+    margin-top: 15px;
+  
+}
+
+.max_signin a{
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+
+/*      MOTEUR RECHERCHE        */
+
+.main_search{
+    border: 1px solid red;
+    margin-top: 20px;
+}
+.main_search h1{
+
+    font-size: 1.3em;
+    border: 1px solid black;
+    margin-bottom: 7px;
+    margin-top: 0%;
+}
+.main_search {
+    font-size: 1em;
+}
+
+.max_search_container {
+    display: flex;
+    width: 31%;
+    height: 50px;
+    border: #f2f2f2 1px solid ;
+    border-radius:20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.map_marker {
+    width: 12%;
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+}
+
+.map_marker i{
+    padding:16px;
+}
+
+form{
+    width: 88%;
+    display: flex;
+}
+
+.destination{
+    width: 64%;
+}
+
+#destination_max {
+    border: none;
+    width: 100%;
+    padding: 17px;
+}
+
+.destination ::placeholder{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: black;
+}
+
+.button_search{
+    width:36%;
+
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+}
+
+.button_search input{
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-size: 1.1em;
+    padding-top: 14px;
+}
+
+
+
+/*      FILTRES     */
+
+#filters_container{
+    width: 70%;
+    height: 75px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+    border: solid green 1px;
+}
+#filters_container h3{
+    width: 10.1%;
+    margin-right: 3%;
+}
+#filters_container ul{  
+    width: 89%; 
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    padding-left: 0%;
+    border: red 1px solid;
+}
+#filters_container li{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border: #F2F2F2 2px solid;
+    border-radius: 70px;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 1.1em;
+    padding-right: 2%;
+    margin-right: 3%;
+    border: pink 1px solid;
+}
+
+.icon_filter{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #DEEBFF;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    color: #0065FC;
+}
+
+#filters_container li:hover{
+    box-shadow: 6px 6px 1px #f2f2f2;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/*      BARRE D'INFOS       */
+
+.bar_infos{
+    width:36%;
+    height: 55px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.bar_infos i{
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 2%;
+        border: solid 1px #F2F2F2;
+        border-radius: 30px;
+        color: #0065FC;
+}
+
