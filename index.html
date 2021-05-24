@@ -5,8 +5,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width"/>
     <title>Reservia | Trouver votre hébergement</title>
-    <link rel="stylesheet" type="text/css" href="stylespourcopie.css"/>
-    <link rel="stylesheet" media="screen" href="iphone_8.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" media="screen" href="stylemob.css"/>
     <script src="https://kit.fontawesome.com/7bc55aaae5.js" crossorigin="anonymous"> </script>
 </head>
 
@@ -36,7 +36,22 @@
             </div>
     </div>
 
+           <!--MOBILE-->
+    <div class="min_nav">
+        <div class="min_logo"> 
+            <img src="images/logo/Reservia@3x.png" alt="logo de Réservia"/>
+                <a href="#"> S'inscrire</a> 
+        </div>
+
+        <nav class="min_menu"> 
+            <ul>
+                <li> <a href="#hebergements"> Hébergements </a></li>
+                <li> <a href="#activites_marseille">Activités </a></li>    
+            </ul>
+        </nav>
+    </div>
         
+
 
 
 <!--        MOTEUR RECHERCHE        -->
@@ -62,7 +77,28 @@
             </form>
             
         </div>
+        
+        <div class="min_search_container">
 
+            <div class="min_map_marker">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+
+            <form method="POST" action="destination.php">
+
+                <div class="min_destination"> 
+                    <input type="search" name="destination" id="destination_min" placeholder="Marseille, France"/>
+                </div>
+
+                <div class="icon_search" >
+        
+                    <button title="Trouver" type="submit" class="button_icon_search"> 
+                        <i class="fas fa-search"></i> 
+                    </button>
+                </div>
+            </form>
+                
+        </div>
         
     </div>
 
