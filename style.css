@@ -22,6 +22,9 @@ header{
 
 /*      LOGO ET NAV     */
 
+.min_nav{
+    display: none;
+}
 
 .max_nav{
     display: flex;
@@ -156,6 +159,9 @@ form{
     padding-top: 14px;
 }
 
+.min_search_container{
+    display: none;
+}
 
 /*      FILTRES     */
 
