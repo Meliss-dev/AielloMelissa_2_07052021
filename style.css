@@ -234,3 +234,111 @@ form{
         color: #0065FC;
 }
 
+/*      MAIN        */
+
+main{
+    width: 93%;
+    margin: auto;
+}
+
+
+/*      HEBERGEMENTS        */
+
+
+.section_hebergement_populaire{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hebergement_marseille{
+    width: 66%;
+    height: 625px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.hebergement_marseille h2{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    margin-left: 4%;
+    font-size: 1.4em;
+    
+}
+
+.hebergement {
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    margin-left: 4.5%;
+}
+
+.hebergement a{
+    display: block;
+    justify-content: space-between;
+    width: 31%;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#cannebiere , #port, #mouettes, #mer, #panier, #amina{ 
+
+    width: 100% ;
+    height: 200px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.photo_heb{
+    width: 95%;
+    height: 115px;
+    object-fit: cover;
+    padding: 2%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebergement h3{
+    margin: 0%;
+    color: black;
+    padding-left: 5%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.hebergement span{
+    font-size: 0.8em;
+    padding-left: 5%;
+}
+
+.hebergement p{
+    margin-top: 5px;
+    padding-left: 5%;
+    color: #0065FC;
+    font-size:0.7em;
+    letter-spacing: -1px;
+}
+
+#cannebiere p :last-child , #mouettes p :last-child, #panier p :last-child , #mer p :last-child{
+    color:#F2F2F2;
+}
+
+#mer p  :nth-child(4){
+    color:#F2F2F2;
+}
+
+.hebergement_marseille h4{
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    border: solid green 1px;
+}
+
