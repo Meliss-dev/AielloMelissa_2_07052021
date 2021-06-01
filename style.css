@@ -1,5 +1,8 @@
+/*  GOOGLE FONT  */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 
 html{
     width: 1440px;
@@ -333,12 +336,16 @@ main{
     font-weight: bold;
 }
 
-.hebergement span{
+.info_hotel{
     font-size: 0.8em;
-    padding-left: 5%;
+    font-weight: normal;
 }
 
-.hebergement p{
+.price {
+    font-weight: bold;
+}
+
+.stars{
     margin-top: 5px;
     padding-left: 5%;
     color: #0065FC;
