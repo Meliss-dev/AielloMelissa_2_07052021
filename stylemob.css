@@ -10,7 +10,6 @@
     #bloc_page
     {
         max-width: 100%;
-        height: 4550px;
         margin: auto;
     }
 
@@ -32,47 +31,41 @@
 
 /*       LOGO ET NAV      */
 
-    .max_nav
+    .nav
     {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .max_menu
+    .menu
     {
         margin-left: 0%;
     }
 
-    .max_menu:nth-child(2)
+    .menu:nth-child(2)
     {
        order: 3;
        width: 100%;  
     }
 
-    .max_signin
+    .signin
     {
        margin-left: 50%;
     }
 
-    .max_logo
+    .logo
     {
         margin-left: 3%;
     }
 
-    .max_logo img
+    .logo img
     {
         padding-top: 20px;
         margin-left: 10%;
     }
     
-    .min_menu
-    {
-        width: auto;
-        margin-top: 10px;
-       
-    }
 
-    .max_menu ul 
+    .menu ul 
     {
         width: 100%;
         display: flex;
@@ -80,7 +73,7 @@
     }
     
    
-    .max_menu li 
+    .menu li 
     {
         list-style-type: none;
         padding-bottom: 10px;
@@ -91,20 +84,20 @@
         border-bottom: #f2f2f2 3px solid;
     }
 
-    .max_menu a
+    .menu a
     {
         text-decoration: none;
         color: black;
     }
     
-    .max_menu li:hover
+    .menu li:hover
     {
         border-bottom: solid 3px #0065FC;
         text-decoration: none;
         border-top: none;
     }
 
-    .max_menu a:hover
+    .menu a:hover
     {
     color: #0065FC;  
     }
@@ -140,9 +133,11 @@
     display: flex;
     width: 89%;
     height: 50px;
+    border: solid 1px #f2f2f2;
     border-radius:20px;
-    padding-top:35px ;
+    margin-top:35px ;
     margin-left: 5%;
+
    }
    
     .min_map_marker 
@@ -300,7 +295,7 @@
     
     /*      LES PLUS POPULAIRES     */
 
-    .titre_populaire
+    .title_populaire
     {
         width: 90%;
     }
@@ -532,15 +527,15 @@
 
         .hebergement h3
         {
-            font-size: 1.3em;
+            font-size: 1.4em;
         }
 
-        .hebergement span
+        .info_hotel
         {
-            font-size: 1.1em;
+            font-size: 0.9em;
         }
 
-        .hebergement p
+        .stars
         {
           font-size: 1em;
           padding-bottom:10px ;
@@ -558,7 +553,7 @@
             height: auto;
         }
 
-        .titre_populaire
+        .title_populaire
         {
             display: flex;
             width: 90%;
@@ -566,7 +561,7 @@
             align-items: center;           
         }
 
-        .titre_populaire i
+        .title_populaire i
         {
             margin-top: 0px;
             padding-top: 0%;

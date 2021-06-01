@@ -34,34 +34,31 @@ header{
 
 /*      LOGO ET NAV     */
 
-.min_nav{
-    display: none;
-}
 
-.max_nav{
+.nav{
     display: flex;
 }
 
-.max_logo img{ 
+.logo img{ 
     padding-top: 40px;
     width: 100px;
 }
 
 
-.max_menu {
+.menu {
     width: 36%;
     display: flex;
     margin-left:50%;
 }
 
-.max_menu ul{
+.menu ul{
     display:flex;
     list-style-type: none;
     width: 100%;
     margin-top: 0px;
 }
 
-.max_menu li{
+.menu li{
     margin-top: 0px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -69,19 +66,19 @@ header{
     width: 100%;
 }
 
-.max_menu a{
+.menu a{
     color: black;
     text-decoration: none;
 }
 
-.max_menu ul :hover {
+.menu ul :hover {
     color: #0065FC;
 }
-.max_menu  li:hover{
+.menu  li:hover{
     border-top: 2px #0065FC solid;
 }
 
-.max_signin {
+.signin {
     width: 12%;
     display:flex;
     justify-content:center;
@@ -91,7 +88,7 @@ header{
   
 }
 
-.max_signin a{
+.signin a{
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
@@ -385,7 +382,7 @@ aside{
     align-items: center;
 }
 
-.titre_populaire{
+.title_populaire{
     width: 82%;
     height: 90px;
     display: flex;
@@ -393,12 +390,12 @@ aside{
     align-items: baseline;
 }
 
-.titre_populaire i{
+.title_populaire i{
     margin-top: 10%;
     font-size: 1.4em;
 }
 
-.titre_populaire h2{
+.title_populaire h2{
     font-size: 1.4em;
 }
 .plus_populaires{
