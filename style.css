@@ -350,11 +350,11 @@ main{
     letter-spacing: -1px;
 }
 
-#cannebiere p :last-child , #mouettes p :last-child, #panier p :last-child , #mer p :last-child{
+#cannebiere .stars :last-child , #mouettes .stars :last-child, #panier .stars :last-child , #mer .stars :last-child{
     color:#F2F2F2;
 }
 
-#mer p  :nth-child(4){
+#mer .stars :nth-child(4){
     color:#F2F2F2;
 }
 
@@ -431,19 +431,12 @@ aside{
     font-size: 1em;
 }
 
-.infos span{
-    font-size: 0.8em;
-    margin-top: 10px;
-    text-decoration: none;
+.infos .stars{
+    margin-top: 25%;
+    padding-left: 0px;
 }
 
-.infos p{
-    margin-top: 40px;
-    color: #0065FC;
-    font-size: 0.7em;
-    letter-spacing: -1px;
-}
-.coeur_de_leau p :last-child , .bleu_blanc p :last-child{
+.coeur_de_leau .stars :last-child , .bleu_blanc .stars :last-child{
     color: #f2f2f2;
 }
 

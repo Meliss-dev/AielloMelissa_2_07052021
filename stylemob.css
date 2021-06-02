@@ -310,10 +310,16 @@
     .plus_populaires
     {
         width: 100%;
+        height: auto;
         align-items: center;
         justify-content: center;
     }
 
+    .infos
+    {
+        height: auto;
+    }
+    
     .plus_populaires a
     {
         width: 89%;
@@ -588,21 +594,16 @@
             font-size: 1.3em;
         }
 
-        .infos span
+        .infos .stars
         {
-            font-size: 1.1em;
-        }
-
-        .infos p 
-        {
-            margin-top: 40px;
+            margin-top: 20%;
             font-size: 1em;
         }
 
-        .coeur_de_leau p
+        .coeur_de_leau .stars 
         {
-        margin-top: 20px;
-        }    
+            margin-top: 13%;
+        }
 
         /*      ACTIVITES MARSEILLE     */
     
