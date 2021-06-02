@@ -457,7 +457,10 @@
             padding:16px;
         }
         
-        
+        .bar_infos
+        {
+            white-space: nowrap;
+        }
  
        /*       MAIN        */
     
@@ -482,11 +485,12 @@
     
         #hebergement_marseille
         {
-            width: 100%;
+            width: 92%;
             height: auto;
             display: flex;
             flex-direction: column;
-            background-color: white;
+            margin: auto;
+            margin-top: 30px;
         }
     
         
@@ -500,7 +504,10 @@
             margin: auto;
         }
         
-        
+        #hebergement_marseille h2
+        {
+            margin-left:5%;
+        }
         .hebergement a
         {
             display: block;
@@ -601,9 +608,9 @@
     
         #activites_marseille
         {
-            width: 100%; 
-            margin: 0%;
-            padding: 0%;
+            width: 92%; 
+           margin: auto;
+           margin-top:50px ;
         }
 
         #activites_marseille h2
@@ -614,14 +621,13 @@
         .activites
         {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items:flex-end;
             width:100%;
+            margin: auto;
             height: auto;
             display: flex;
             flex-wrap: wrap;
-            height: auto;
-
         }
         
         .activites h3
@@ -631,18 +637,18 @@
 
         .activites a
         {
-            width: 35%;
+            width: 45%;
             height: auto;
             margin-bottom: 20px;
         }
         
         .pomegues_frioul , .dame_longchamp
         {
-            width: 35%;
+            width: 45%;
         }
         .pomegues_frioul a, .dame_longchamp a
         {
-        width: 100%;
+            width: 100%;
         }
 
         
