@@ -292,7 +292,22 @@
         height:auto ; 
         padding-bottom: 1%;
     }
-    
+
+    .photo_heb
+    {
+    display: none;
+    }
+
+    .photosmall_heb             /*      PHOTOS VERSION MOBILE   */
+    {
+    display: flex;
+    width: 95%;
+    height: 115px;
+    object-fit: cover;
+    padding: 2%;
+    border-radius: 20px 20px 0px 0px;
+    }
+
     /*      LES PLUS POPULAIRES     */
 
     .title_populaire
@@ -326,7 +341,19 @@
         height: 145px;
     }
 
-    
+    .photo_pop
+    {
+        display: none;
+    }
+
+    .photosmall_pop         /*  PHOTOS VERSION MOBILE       */
+    {        
+        display: flex;
+        width:38%;
+        margin: 1.5%;
+        object-fit: cover ;
+        border-radius: 20px 0 0 20px ;
+    }
 
     /*      ACTIVITES MARSEILLE     */
 
@@ -382,9 +409,38 @@
         margin-bottom: 20px;
     }
 
-    .vieux_port img , .pomegues img, .frioul img, .calanques img, .notre_dame img , .longchamp img
+    .photo_act
     {
-        width: 100%;
+        display: none;
+    }
+
+    .photosmall_act         /*    PHOTOS  VERSION MOBILE      */
+    {
+        display: flex;
+        width: 100% ;
+        height: 135px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        
+        
+    }
+    .vieux_port img, .calanques img{
+        height: 135px;
+    }
+    
+    .pomegues img{
+        height: 135px;
+    }
+    
+    .frioul img{
+        height: 135px;
+    }
+    
+    .notre_dame img{
+        height:135px;
+    }
+    
+    .longchamp img{
         height: 135px;
     }
 

@@ -324,6 +324,9 @@ main{
     padding: 2%;
     border-radius: 20px 20px 0px 0px;
 }
+.photosmall_heb{
+    display: none;
+}
 
 .hebergement h3{
     margin: 0%;
@@ -453,11 +456,14 @@ aside{
     box-shadow:rgba(227 , 227 , 227 , 0.9) 2px 2px 8px 4px ;
 }
 
-.soleil_du_matin img , .coeur_de_leau img , .bleu_blanc img{ 
+.photo_pop {
     width:38%;
     margin: 1.5%;
     object-fit: cover ;
     border-radius: 20px 0 0 20px ;
+}
+.photosmall_pop{
+    display: none;
 }
 
 /*       ACTIVITES A MARSEILLE       */
@@ -521,10 +527,14 @@ aside{
 /*      IMAGES ACTIVITES        */
 
 
-.vieux_port img , .pomegues img, .frioul img, .calanques img, .notre_dame img , .longchamp img{
+.photo_act{
     width: 100% ;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
+}
+
+.photosmall_act{
+    display: none;
 }
 
 .vieux_port img, .calanques img{
